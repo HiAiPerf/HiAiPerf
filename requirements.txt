@@ -1,0 +1,8 @@
+gradio
+google-cloud-storage
+google-cloud-speech
+google-cloud-texttospeech
+langchain-google-genai
+langgraph
+pydub
+ffmpeg-python

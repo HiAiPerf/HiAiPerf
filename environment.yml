@@ -1,0 +1,26 @@
+
+name: HiAiPerf
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - langgraph
+      - langchain-google-genai
+      - langchain
+      - google-genai                  # if using LangChain's integration:
+      - google-generativeai           # Or google-genai, for Gemini API
+      - google-cloud-aiplatform
+      - pinecone-client
+      - google-cloud-texttospeech     # For Text-to-Speech
+      - google-cloud-speech           # For Speech-to-Text
+      - google-cloud-storage          # For GCS interaction
+      - openai
+      - pydub                         # For audio extraction/manipulation
+      - ffmpeg                        # pydub requires ffmpeg backend for audio/video processing if needed
+      - moviepy                       # Alternative/complement for video processing
+      - tqdm
+      - requests
+      - gradio  # optional, for API wrapper
