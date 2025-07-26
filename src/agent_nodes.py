@@ -13,7 +13,7 @@ from utils import download_from_gcs, upload_to_gcs, extract_audio_from_video, GC
 # --- Configuration ---
 # GCP_PROJECT_ID is still defined here for reference, but not directly passed to ChatGoogleGenerativeAI
 GCP_PROJECT_ID = "dogwood-site-467123-v3" # <<< Ensure this is your correct project ID
-GEMINI_MODEL_NAME = "gemini-2.5-flash" # Use 'gemini-1.5-pro' for higher quality, 'gemini-1.5-flash' for speed/cost
+GEMINI_MODEL_NAME = "gemini-1.5-flash" # Use 'gemini-1.5-pro' for higher quality, 'gemini-1.5-flash' for speed/cost
 
 # TEMPORARY API KEY FOR LOCAL TESTING
 # IMPORTANT: GENERATE THIS API KEY IN GOOGLE CLOUD CONSOLE (APIs & Services -> Credentials -> Create Credentials -> API Key)
