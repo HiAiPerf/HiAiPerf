@@ -135,7 +135,7 @@ Once all prerequisites and Google Cloud setups are complete, you can run the app
 
 ## 📂 Project Structure
 
-![Folder Structure](images/folder-githb.png)
+![Folder Structure](images/folder-github.png)
 
 ## 🤝 Contributing
 
